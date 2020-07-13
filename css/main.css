@@ -1,0 +1,257 @@
+body {
+    font-family: 'Irish Grover', cursive;
+
+    background-image: url(img/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+header, #footer {
+    background: rgb(22, 155, 98);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+header a, #footer a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+header a:hover, #footer a:hover {
+
+    color: white;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+header i, #footer i {
+
+    padding: 0 10px;
+    font-size: 27px;
+
+
+}
+
+
+nav {
+    background-color: rgb(255 130 0);
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li, #footer ul li {
+    float: left;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+/*---slider---*/
+
+
+.carousel-indicators li {
+
+    width: 17px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    opacity: 1;
+    background: transparent;
+
+}
+
+.carousel-indicators .active {
+
+    background: #fff;
+    transition: .5s;
+
+
+}
+
+
+/*---about---*/
+
+
+.title-row {
+
+    display: initial;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about h2 {
+
+    text-transform: uppercase;
+    color: black;
+    height: 90px;
+    line-height: 75px;
+    margin: 40px 0px;
+}
+
+
+#pills-tab {
+
+    width: 100%;
+
+}
+
+.nav-link {
+
+    color: #242424;
+}
+
+.nav-link:hover {
+    color: #242424;
+    border-bottom: 4px solid green;
+    border-radius: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+    color: #242424;
+    background: transparent;
+    border-bottom: 4px solid green;
+    border-radius: 0;
+}
+
+
+.tab-content {
+
+    margin-top: 40px;
+
+
+}
+
+
+.tab-content img {
+
+    position: absolute;
+
+}
+
+.text-content {
+
+    padding-top: 100px;
+
+}
+
+/*---studio--*/
+
+#studio h2 {
+
+
+    background: url(img/8.png);
+    text-transform: uppercase;
+    color: black;
+    height: 90px;
+    line-height: 75px;
+    margin: 10px 0px;
+
+
+}
+
+.title-row img {
+
+    margin: 80px 0px 0px 350px;
+
+}
+
+
+.img-fluid {
+
+    width: 100%;
+    height: 275px;
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    border: 3px solid #fff;
+    padding: 30px;
+    background-size: 35%;
+
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+
+    background: rgb(0, 0, 0, .7);
+    width: 25%;
+
+
+}
+
+/*---services----*/
+
+#services h2 {
+
+
+    background-repeat: no-repeat
+    background-position-x: 45%;
+    height: 90px;
+    line-height: 95px;
+    margin: 70px 0;
+
+}
+
+
+#services {
+
+    text-align: center;
+}
+
+
+#services .row {
+    margin: 50px 0;
+
+
+}
+
+#services img {
+
+    padding: 15px;
+    border: 2px solid #c4c4c4;
+    width: 100%;
+
+}
+
+
+.services-item {
+
+    margin: 0 4%;
+
+}
+
+.services-item p {
+
+
+    margin-top: 15px;
+}
+
+/*---footer---*/
+
+#footer p {
+
+    text-transform: uppercase;
+    font-size: 16px;
+}
